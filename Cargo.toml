@@ -1,0 +1,13 @@
+[package]
+name = "rofi-websearch"
+version = "0.1.0"
+edition = "2024"
+description = "rofi plugin for web searches with keywords, like Firefox's search shortcuts"
+publish = false
+
+[lib]
+name = "websearch"
+crate-type = ["cdylib"]
+
+[dependencies]
+rofi-mode = "0.6"
